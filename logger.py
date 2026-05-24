@@ -16,22 +16,25 @@ sum_start = 0
 sum_end = 0
 sum_dur = 0
 
+need_tests = 3000
+
 print(f"Подключение к {SERIAL_PORT}...")
 
 try:
     ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
 
-    # Режим 'w' полностью очищает старый файл и гарантирует,
-    # что первая строка ВСЕГДА будет содержать наши подписи.
+    if os.path.exists(OUTPUT_FILE):
+        print("Файл" + OUTPUT_FILE + "уже существует!")
+        exit(0)
+
     with open(OUTPUT_FILE, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter=';')
 
-        # Четко размечаем структуру таблицы в первой строке
+        # Размечаем структуру таблицы в первой строке
         headers = [
             'Номер теста',
-            'Задержка включения (us)', 'СРЕДНЯЯ задержка включения (us)',
-            'Задержка спада (us)', 'СРЕДНЯЯ задержка спада (us)',
-            'Длительность ответа (us)', 'СРЕДНЯЯ длительность ответа (us)'
+            'Задержка сигнала (мкс)', 
+            'СРЕДНЯЯ задержка сигнала (мкс)'
         ]
         writer.writerow(headers)
         file.flush()
@@ -42,34 +45,26 @@ try:
             if ser.in_waiting > 0:
                 line = ser.readline().decode('utf-8', errors='ignore').strip()
 
-                # Нам нужны только строки данных, маркер HEADER от Ардуино игнорируем
                 if line.startswith("DATA;"):
                     parts = line.split(';')
                     data_row = parts[1:]
 
                     # Извлекаем текущие показатели
                     test_num = int(data_row[0])
-                    start_lat = int(data_row[1])
-                    end_lat = int(data_row[2])
-                    duration = int(data_row[3])
+                    lat = int(data_row[1])
 
                     # Инкрементируем метрики для глобального среднего
                     total_count += 1
-                    sum_start += start_lat
-                    sum_end += end_lat
-                    sum_dur += duration
+                    sum_start += lat
 
                     # Считаем среднее (актуальное на текущий тест)
                     avg_start = sum_start // total_count
-                    avg_end = sum_end // total_count
-                    avg_dur = sum_dur // total_count
 
                     # Собираем строку, где чередуются текущее значение и среднее "за всё время"
                     extended_row = [
                         test_num,
-                        start_lat, avg_start,
-                        end_lat, avg_end,
-                        duration, avg_dur
+                        lat, 
+                        avg_start
                     ]
 
                     # Записываем в CSV и пушим на жесткий диск
@@ -77,7 +72,11 @@ try:
                     file.flush()
 
                     print(f"Успешно записан тест №{test_num} | Текущие средние: "
-                          f"Вкл={avg_start}us, Спад={avg_end}us, Длит={avg_dur}us")
+                          f"Сигнал={avg_start}мкс")
+
+                    if need_tests == test_num:
+                        print("Успешно записали 5000 тестов, выходим")
+                        exit(0)
 
                 elif line.startswith("DATA_ERROR;"):
                     print("[!] Пропуск итерации: тайм-аут сигнала на стороне Arduino.")
