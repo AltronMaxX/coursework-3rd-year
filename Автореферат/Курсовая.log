@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/nixos.org) (preloaded format=pdflatex 1980.1.1)  24 MAY 2026 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/nixos.org) (preloaded format=pdflatex 1980.1.1)  24 MAY 2026 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,36 +833,29 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (./РљСѓСЂСЃРѕРІР°СЏ.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
 (babel)             Reported on input line 8.
-
-
-LaTeX Warning: Label `lst:url_structure1' multiply defined.
-
-
-LaTeX Warning: Label `lst:url_structure1' multiply defined.
-
 )
 \openout1 = `РљСѓСЂСЃРѕРІР°СЏ.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -900,7 +893,7 @@ LaTeX Font Info:    ... okay on input line 52.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Option `justification=RaggedRight' requires the `ragged2e
-' package on input line 52.
+' package on input line 57.
 
 (/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texm
 fdist/tex/latex/ragged2e/ragged2e.sty
@@ -957,7 +950,7 @@ fdist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \th on input line 52.
+LaTeX Info: Redefining \th on input line 57.
 \c@lstlisting=\count348
 
 (/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texm
@@ -972,7 +965,7 @@ Package color Info: Driver file: pdftex.def on input line 149.
 
 (/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texm
 fdist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 52.
+Package hyperref Info: Link coloring ON on input line 57.
  (./РљСѓСЂСЃРѕРІР°СЏ.out)
 (./РљСѓСЂСЃРѕРІР°СЏ.out)
 \@outlinefile=\write4
@@ -995,7 +988,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 (/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texm
 fdist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+Overfull \hbox (17.27573pt too wide) in paragraph at lines 13--13
+ [][] [][][]\T2A/cmr/m/n/14.4 Разработка и те-сти-ро-ва-ние си-сте-мы ре-аль-но
+-го вре-ме-ни на ба-зе MangoPi 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `РљСѓСЂСЃРѕРІР°СЏ.toc'.
 
@@ -1003,7 +1002,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-132.
+137.
 
 (/nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texm
 fdist/tex/latex/cyrillic/t2acmtt.fd
@@ -1013,37 +1012,37 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ] [4] [5
 
 ] [6] [7]
-Overfull \hbox (2.29253pt too wide) in paragraph at lines 180--181
+Overfull \hbox (2.29253pt too wide) in paragraph at lines 185--186
 []\T2A/cmr/m/n/14.4 Конкретная ло-ги-ка вы-бо-ра сле-ду-ю-щей за-да-чи за-да-јт
 -ся ал-го-рит-мом пла-
  []
 
 
-Overfull \hbox (0.43985pt too wide) in paragraph at lines 180--181
+Overfull \hbox (0.43985pt too wide) in paragraph at lines 185--186
 \T2A/cmr/m/n/14.4 ни-ро-ва-ния. Боль-шин-ство со-вре-мен-ных ядер под-дер-жи-ва
 -ют два ос-нов-ных под-
  []
 
 
-Overfull \hbox (6.93663pt too wide) in paragraph at lines 180--181
+Overfull \hbox (6.93663pt too wide) in paragraph at lines 185--186
 \T2A/cmr/m/n/14.4 хо-да: вы-тес-ня-ю-щее пла-ни-ро-ва-ние на ос-но-ве при-о-ри-
 те-тов и цик-ли-че-ское (\T2A/cmr/m/it/14.4 round-
  []
 
 [8]
-Overfull \hbox (10.34575pt too wide) in paragraph at lines 197--198
+Overfull \hbox (10.34575pt too wide) in paragraph at lines 202--203
 []\T2A/cmr/m/n/14.4 Предоставление API си-стем-ных вы-зо-вов для поль-зо-ва-тел
 ь-ских про-грамм. 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 []\T2A/cmtt/m/n/14.4 SCHED_RR \T2A/cmr/m/n/14.4 (\T2A/cmr/m/it/14.4 Round-Robin
 \T2A/cmr/m/n/14.4 ) ^^V цик-ли-че-ский ре-жим, ана-ло-гич-ный
  []
 
 [10] [11]
-Overfull \hbox (0.24547pt too wide) in paragraph at lines 248--249
+Overfull \hbox (0.24547pt too wide) in paragraph at lines 253--254
 []\T2A/cmr/bx/n/14.4 SPL (Secondary Program Loader). \T2A/cmr/m/n/14.4 Ком-пакт
 -ная вер-сия U-Boot, пред-
  []
@@ -1052,190 +1051,222 @@ Overfull \hbox (0.24547pt too wide) in paragraph at lines 248--249
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 294.
+nput line 299.
  [14] [15]
-<linux_config_menu.png, id=296, 1925.1925pt x 1078.0275pt>
+<linux_config_menu.png, id=300, 1925.1925pt x 1078.0275pt>
 File: linux_config_menu.png Graphic file (type png)
 <use linux_config_menu.png>
-Package pdftex.def Info: linux_config_menu.png  used on input line 356.
+Package pdftex.def Info: linux_config_menu.png  used on input line 361.
 (pdftex.def)             Requested size: 398.33858pt x 223.03679pt.
  [16 <./linux_config_menu.png (PNG copy)>] [17]
-Overfull \hbox (0.6476pt too wide) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 \T2A/cmr/m/n/14.4 дел за-груз-чи-ка U-Boot тре-бу-ет ис-поль-зо-ва-ния фай-ло-в
-ой си-сте-мы \T2A/cmr/bx/n/14.4 FAT \T2A/cmr/m/n/14.4 (\T2A/cmtt/m/n/14.4 vfat\
-T2A/cmr/m/n/14.4 ),
+ой си-сте-мы
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
 \T2A/cmr/m/n/14.4 яд-ра Linux (\T2A/cmtt/m/n/14.4 Image\T2A/cmr/m/n/14.4 ) и би
 -нар-ный файл де-ре-ва устройств
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
 \T2A/cmr/m/n/14.4 ет-ся ди-рек-то-рия \T2A/cmtt/m/n/14.4 extlinux\T2A/cmr/m/n/1
 4.4 , со-дер-жа-щая кон-фи-гу-ра-ци-он-ный файл
  []
 
 [18]
-<os_starting.png, id=350, 245.9589pt x 151.2852pt>
+<os_starting.png, id=367, 245.9589pt x 151.2852pt>
 File: os_starting.png Graphic file (type png)
 <use os_starting.png>
-Package pdftex.def Info: os_starting.png  used on input line 440.
+Package pdftex.def Info: os_starting.png  used on input line 445.
 (pdftex.def)             Requested size: 398.33858pt x 245.02988pt.
  [19 <./os_starting.png>]
-<header.png, id=361, 896.34875pt x 546.04pt>
+<header.png, id=380, 896.34875pt x 546.04pt>
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 455.
-(pdftex.def)             Requested size: 398.33858pt x 242.65793pt.
- [20]
-Underfull \hbox (badness 10000) in paragraph at lines 459--471
-
- []
-
-<scheme.jpg, id=369, 1284.8pt x 963.6pt>
-File: scheme.jpg Graphic file (type jpg)
-<use scheme.jpg>
-Package pdftex.def Info: scheme.jpg  used on input line 475.
-(pdftex.def)             Requested size: 398.33858pt x 298.75702pt.
-[21 <./header.png>] [22 <./scheme.jpg>] [23]
-Overfull \hbox (1.53723pt too wide) in paragraph at lines 525--526
+Package pdftex.def Info: header.png  used on input line 459.
+(pdftex.def)             Requested size: 341.43306pt x 207.98894pt.
+ [20 <./header.png>] [21]
+Overfull \hbox (1.53723pt too wide) in paragraph at lines 528--529
 []\T2A/cmr/m/n/14.4 Для каж-до-го ва-ри-ан-та кон-фи-гу-ра-ции бы-ла вы-пол-не-
 на ге-не-ра-ция и фик-
  []
 
-[24]
-Overfull \hbox (16.94836pt too wide) in paragraph at lines 576--577
+[22] [23]
+Underfull \hbox (badness 3735) in paragraph at lines 579--580
 []\T2A/cmr/m/n/14.4 Результаты по-ка-зы-ва-ют, что на-зна-че-ние наи-выс-ше-го 
-при-о-ри-те-та процессу-
+при-о-ри-те-та
  []
 
-[25]
-Overfull \hbox (2.6854pt too wide) in paragraph at lines 586--587
+[24]
+Overfull \hbox (2.6854pt too wide) in paragraph at lines 589--590
 \T2A/cmr/m/n/14.4 строй-ке при-о-ри-те-тов яд-ро \T2A/cmtt/m/n/14.4 PREEMPT_RT 
 \T2A/cmr/m/n/14.4 эф-фек-тив-нее огра-ни-чи-ва-ет мак-си-маль-
  []
 
-[26] [27
+[25] [26
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
 []\T2A/cmr/m/n/14.4 The Linux Kernel documentation [Элек-трон-ный ре-сурс] URL:
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--614
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
 []\T2A/cmr/m/n/14.4 Devicetree documentation [Элек-трон-ный ре-сурс] URL:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--614
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
 \T2A/cmr/m/n/14.4 https://docs.kernel.org/devicetree/usage-model.html (да-та об
 -ра-ще-ния:
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 614--615
+Underfull \hbox (badness 6220) in paragraph at lines 617--618
 []\T2A/cmr/m/n/14.4 U-Boot documentation [Элек-трон-ный ре-сурс] URL: https://d
 ocs.u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--616
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
 []\T2A/cmr/m/n/14.4 MangoPi MQ Pro documentation [Элек-трон-ный ре-сурс] URL:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 []\T2A/cmr/m/n/14.4 Arduino documentation [Элек-трон-ный ре-сурс] URL:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 620--621
 []\T2A/cmr/m/n/14.4 AltLinux kernel source [Элек-трон-ный ре-сурс] URL:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 620--621
 \T2A/cmr/m/n/14.4 https://git.altlinux.org/gears/k/kernel-source-6.16.git (да-т
 а об-ра-ще-ния:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--621
+Underfull \hbox (badness 7273) in paragraph at lines 623--624
+[]\T2A/cmr/m/n/14.4 PREEMPT_RT setup guide [Элек-трон-ный ре-сурс] URL: $\T2A/c
+mtt/m/n/14.4 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
+\T2A/cmtt/m/n/14.4 / / wiki . linuxfoundation . org / realtime / documentation 
+/ howto /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
 []\T2A/cmr/m/n/14.4 AltLinux U-Boot source [Элек-трон-ный ре-сурс] URL:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--621
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
 \T2A/cmr/m/n/14.4 https://packages.altlinux.org/ru/sisyphus_riscv64/binary/u-bo
 ot-sunxi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
 []\T2A/cmr/m/n/14.4 AltLinux rootfs source [Элек-трон-ный ре-сурс] URL:
  []
 
+[27
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--623
+]
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+[]\T2A/cmr/m/n/14.4 dd utility manual page [Элек-трон-ный ре-сурс] URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+\T2A/cmr/m/n/14.4 https://man7.org/linux/man-pages/man1/dd.1.html (да-та об-ра-
+ще-ния:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
 []\T2A/cmr/m/n/14.4 fdisk manual page [Элек-трон-ный ре-сурс] URL:
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 622--623
+Underfull \hbox (badness 4846) in paragraph at lines 627--628
 \T2A/cmr/m/n/14.4 https://man7.org/linux/man-pages/man8/fdisk.8.html (да-та об-
 ра-ще-ния:
  []
 
-[28
 
-] [29] [30
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
+[]\T2A/cmr/m/n/14.4 FAT filesystem documentation [Элек-трон-ный ре-сурс] URL:
+ []
 
-] [31] [32] [33
 
-] [34] [35] [36] [37
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
+[]\T2A/cmr/m/n/14.4 Ext4 filesystem documentation [Элек-трон-ный ре-сурс] URL:
+ []
 
-] [38] [39] [40]
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
+\T2A/cmr/m/n/14.4 https://docs.kernel.org/filesystems/ext4/index.html (да-та об
+-ра-ще-ния:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
+[]\T2A/cmr/m/n/14.4 libgpio documentation [Элек-трон-ный ре-сурс] URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
+[]\T2A/cmr/m/n/14.4 stress utility manual page [Элек-трон-ный ре-сурс] URL:
+ []
+
+[28] [29
+
+] [30] [31] [32
+
+] [33] [34] [35] [36
+
+] [37] [38] [39]
 (./РљСѓСЂСЃРѕРІР°СЏ.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `РљСѓСЂСЃРѕРІР°СЏ.out' has not changed.
-(rerunfilecheck)             Checksum: D6C2300BA8AFCE0F52E9850EB3F84D11;7418.
+(rerunfilecheck)             Checksum: B8D8491992F61A8627AD803D8347E184;8166.
  ) 
 Here is how much of TeX's memory you used:
- 18177 strings out of 467535
- 294482 string characters out of 5388798
- 896036 words of memory out of 5000000
- 46353 multiletter control sequences out of 15000+600000
+ 18180 strings out of 467535
+ 294445 string characters out of 5388798
+ 852172 words of memory out of 5000000
+ 46352 multiletter control sequences out of 15000+600000
  635042 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1186b,2034s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1186b,2000s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-te
 xmfdist/fonts/type1/public/cm-super/sfbx1440.pfb></nix/store/56vq9r21wl8m731rsr
 i7nh3l4ipih7jj-texlive-2025-r78234-final-env-texmfdist/fonts/type1/public/cm-su
 per/sfrm0800.pfb></nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r782
-34-final-env-texmfdist/fonts/type1/public/cm-super/sfrm1200.pfb></nix/store/56v
+34-final-env-texmfdist/fonts/type1/public/cm-super/sfrm1440.pfb></nix/store/56v
 q9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texmfdist/fonts/typ
-e1/public/cm-super/sfrm1440.pfb></nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-te
-xlive-2025-r78234-final-env-texmfdist/fonts/type1/public/cm-super/sfti1440.pfb>
+e1/public/cm-super/sfti1440.pfb></nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-te
+xlive-2025-r78234-final-env-texmfdist/fonts/type1/public/cm-super/sftt1200.pfb>
 </nix/store/56vq9r21wl8m731rsri7nh3l4ipih7jj-texlive-2025-r78234-final-env-texm
-fdist/fonts/type1/public/cm-super/sftt1200.pfb></nix/store/56vq9r21wl8m731rsri7
-nh3l4ipih7jj-texlive-2025-r78234-final-env-texmfdist/fonts/type1/public/cm-supe
-r/sftt1440.pfb>
-Output written on РљСѓСЂСЃРѕРІР°СЏ.pdf (40 pages, 916591 bytes).
+fdist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on РљСѓСЂСЃРѕРІР°СЏ.pdf (39 pages, 598625 bytes).
 PDF statistics:
- 928 PDF objects out of 1000 (max. 8388607)
- 854 compressed objects within 9 object streams
- 494 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 939 PDF objects out of 1000 (max. 8388607)
+ 869 compressed objects within 9 object streams
+ 498 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
